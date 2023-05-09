@@ -1,3 +1,19 @@
+  /* font-family: 'Roboto Condensed', sans-serif; */
+  /* Roboto 400. 500. 700 */
+
+  /* Roboto Condenced 700 */
+
+/* body section styles */
+body {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+
+}
+
+
+
 /* Header section styles */
 header {
   background-color: #fff;
@@ -23,13 +39,14 @@ header {
   text-decoration: none;
   font-size: 13px;
   line-height: 15px;
+  font-weight: 700;
 }
 
 /* Hero section styles */
 
 .hero {
   background-color: #252420;
-  width: 1440px;
+
 
 }
 
@@ -54,13 +71,9 @@ header {
   font-weight: bold;
   line-height: 120%;
   letter-spacing: 0.5px;
+  font-family: 'Roboto Condensed', 'Roboto' 'Arial', sans-serif;
 }
 
-.hero-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
-}
 
 /* Features section  */
 
@@ -71,8 +84,8 @@ header {
 .features-heading {
   font-size: 72px;
   line-height: 1.2;
-  letter-spacing: 0.5px;
   width: 440px;
+  font-family: 'Roboto Condensed', "Roboto", 'Arial', sans-serif;
 }
 
 .feature {
@@ -89,15 +102,15 @@ header {
 .feature-title {
   font-size: 24px;
   line-height: 1.2;
-  letter-spacing: 0.5px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 
-.feature-info {
+/* body da berilgan .feature-info {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.5px;
-}
+} */
 
 
 /* Promo section styles */
@@ -117,14 +130,15 @@ header {
 .promo-heading {
   font-size: 40px;
   line-height: 48px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 
-.promo-text {
+/* body da berilgan .promo-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.5px;
-}
+} */
 
 .promo-highlight {
   color: #FF7500;
@@ -157,6 +171,6 @@ header {
 .site-footer-links a {
   text-decoration: none;
   color: #252420;
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 19px;
 }
