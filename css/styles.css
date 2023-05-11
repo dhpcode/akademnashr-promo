@@ -12,7 +12,10 @@ body {
 
 }
 
-
+*:focus {
+  outline: 2px dotted #FF7500;
+  outline-offset: 3px;
+}
 
 /* Header section styles */
 header {
