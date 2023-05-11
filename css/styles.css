@@ -10,6 +10,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.5px;
 
+
 }
 
 *:focus {
@@ -26,6 +27,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-top: 5px solid #FF7500;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .logo-link {
@@ -49,6 +53,7 @@ header {
 .sitenav-list {
   list-style: none;
   display: flex;
+  padding: 0;
 }
 
 .sitenav-link {
@@ -71,13 +76,16 @@ header {
 }
 
 .main-link {
+  display: inline-block;
   background-color: #FF7500;
   color: #fff;
   text-decoration: none;
   font-size: 13px;
   line-height: 15px;
-  font-weight: 700;
+  font-weight: bold;
   transition: opacity 0.4s ease;
+  padding: 12px 24px;
+  border-radius: 4px;
 }
 .main-link:hover {
   opacity: 0.8;
@@ -94,6 +102,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
 
 
 }
@@ -106,12 +116,14 @@ header {
 .hero-img {
   width: 510px;
   height: 510px;
+  border-radius: 8px;
 }
 
 .orange-line {
   width: 80px;
   height: 3px;
   background-color: #FF7500;
+  border: 0;
 }
 
 .hero-heading {
@@ -126,7 +138,8 @@ header {
 /* Features section  */
 
 .features {
-  /* width: 1440px; */
+  padding-top: 210px;
+  padding-bottom: 210px;
 }
 
 .features-heading {
@@ -140,6 +153,7 @@ header {
   list-style: none;
   display: flex;
   justify-content: space-between;
+  padding: 0;
 }
 
 .feature {
@@ -151,6 +165,10 @@ header {
   width: 100px;
   height: 100px;
   background-color: rgba(255, 117, 0, 0.2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .feature-title {
@@ -175,6 +193,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* padding-top: 120px;
+  padding-bottom: 160px; */
+  border-radius: 12px;
 }
 
 
@@ -205,13 +226,20 @@ header {
   width: 440px;
   height: 440px;
   object-fit: cover;
+  border-radius: 12px;
 }
 
 
 /* Footer section styles */
 .site-footer {
   background-color: #f8f8f8;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
 
+.site-footer ul {
+  list-style: none;
+  padding: 0;
 }
 
 .footer-top {
@@ -244,9 +272,7 @@ header {
 .site-footer-divider {
   height: 2px;
   background-color: rgba(37, 36, 32, 0.5);
-}
-.site-footer ul {
-  list-style: none;
+  border: 0;
 }
 
 .site-footer-links {
