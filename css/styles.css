@@ -4,12 +4,25 @@
   /* Roboto Condenced 700 */
 
   /* body section styles */
+  * {
+    box-sizing: border-box;
+  }
+
   body {
     font-family: 'Roboto', 'Arial', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.5px;
+  }
 
+  /* Container */
+  .container {
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 
   }
 
@@ -18,23 +31,27 @@
     outline-offset: 3px;
   }
 
+  .row  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   /* Header section styles */
   header {
     background-color: #fff;
   }
 
   .site-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     border-top: 5px solid #FF7500;
     padding-top: 16px;
     padding-bottom: 16px;
   }
 
+
   .logo-link {
     transition: opacity 0.4s ease;
   }
+
   .logo-link img {
     display: block;
   }
@@ -120,8 +137,6 @@
     align-items: center;
     padding-top: 80px;
     padding-bottom: 80px;
-
-
   }
 
   .hero-content {
@@ -133,6 +148,7 @@
     width: 510px;
     height: 510px;
     border-radius: 8px;
+    box-shadow: 24px 24px 0 0 rgba(255, 117, 0, 0.6);
   }
 
   .orange-line {
@@ -201,12 +217,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 32px;
   }
 
   .feature-title {
     font-size: 24px;
     line-height: 1.2;
     font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+
+  .feature-info {
+    margin: 0;
   }
 
 
@@ -225,16 +248,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding-top: 120px;
-  padding-bottom: 160px; */
+    padding: 64px;
     border-radius: 12px;
+    margin-top: 120px;
+    margin-bottom: 160px;
   }
 
 
   .promo-content {
     width: 440px;
-
-
   }
 
   .promo-heading {
@@ -305,6 +327,7 @@
   .footer-socials li {
     margin-right: 16px;
   }
+
   .footer-socials li:last-child {
     margin-right: 0;
   }
@@ -346,7 +369,12 @@
     margin: 0;
     margin-right: 68px;
   }
-
+  .site-footer-links li {
+    margin-bottom: 16px;
+  }
+  .site-footer-links li:last-child {
+    margin-bottom: 0;
+  }
   .site-footer-links:last-child {
     margin-right: 0;
   }
