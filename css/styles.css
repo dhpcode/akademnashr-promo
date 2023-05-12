@@ -35,6 +35,9 @@
   .logo-link {
     transition: opacity 0.4s ease;
   }
+  .logo-link img {
+    display: block;
+  }
 
   .logo-link:hover {
     opacity: 0.8;
@@ -308,6 +311,11 @@
 
   .footer-socials a {
     color: #252420;
+    display: block;
+  }
+
+  .footer-socials a svg {
+    display: block;
   }
 
   .footer-socials a:hover {
@@ -348,6 +356,7 @@
     color: #252420;
     /* font-size: 16px; */
     line-height: 19px;
+
   }
 
   .site-footer-links a:hover {
