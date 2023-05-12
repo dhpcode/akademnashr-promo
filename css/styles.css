@@ -243,17 +243,16 @@
   /* Promo section styles */
 
   .promo {
-    background-color: #252420;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 64px;
-    border-radius: 12px;
     margin-top: 120px;
     margin-bottom: 160px;
   }
 
+  .promo-inner {
+    background-color: #252420;
+    color: #fff;
+    padding: 64px;
+    border-radius: 12px;
+  }
 
   .promo-content {
     width: 440px;
