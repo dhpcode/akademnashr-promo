@@ -9,24 +9,30 @@
   /* font-family: 'Roboto Condensed', sans-serif; */
 
   /* GLOBAL */
-  html {
-    scroll-behavior: smooth;
-  }
 
   :root {
-    --orange-color: #ff7500;
+    --accent-color: #ff7500;
     --white-color: #fff;
     --body-font: 'Roboto', Arial, sans-serif;
     --headings-font: 'Roboto Condensed', Roboto, Arial, sans-serif;
-
-
   }
 
-  * {
+  html {
     box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
   }
 
   body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
     font-family: var(--body-font);
     font-size: 16px;
     line-height: 1.5;
@@ -45,7 +51,7 @@
   }
 
   *:focus {
-    outline: 2px dotted var(--orange-color);
+    outline: 2px dotted var(--accent-color);
     outline-offset: 3px;
   }
 
@@ -61,7 +67,7 @@
   }
 
   .site-header {
-    border-top: 5px solid var(--orange-color);
+    border-top: 5px solid var(--accent-color);
     padding-top: 16px;
     padding-bottom: 16px;
   }
@@ -118,7 +124,7 @@
   }
 
   .sitenav-link:hover {
-    color: var(--orange-color);
+    color: var(--accent-color);
   }
 
   .sitenav-link:active {
@@ -127,7 +133,7 @@
 
   .main-link {
     display: inline-block;
-    background-color: var(--orange-color);
+    background-color: var(--accent-color);
     color: var(--white-color);
     text-decoration: none;
     font-size: 13px;
@@ -176,7 +182,7 @@
   .orange-line {
     width: 80px;
     height: 3px;
-    background-color: var(--orange-color);
+    background-color: var(--accent-color);
     border: 0;
     margin: 0;
     margin-bottom: 40px;
@@ -298,7 +304,7 @@
 } */
 
   .promo-highlight {
-    color: var(--orange-color);
+    color: var(--accent-color);
   }
 
   .promo-img {
@@ -367,7 +373,7 @@
   }
 
   .footer-socials a:hover {
-    color: var(--orange-color);
+    color: var(--accent-color);
   }
 
   .footer-socials a:active {
@@ -416,7 +422,7 @@
   }
 
   .site-footer-links a:hover {
-    color: var(--orange-color);
+    color: var(--accent-color);
   }
 
   .site-footer-links a:active {
