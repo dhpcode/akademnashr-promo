@@ -59,6 +59,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
   }
 
   /* Header section styles */
@@ -175,8 +176,9 @@
     height: 510px;
     border-radius: 8px;
     box-shadow: 24px 24px 0 0 rgba(255, 117, 0, 0.6);
-    position: relative;
-    top: 40px;
+    position: absolute;
+    right: 20px;
+    top: -40px;
   }
 
   .orange-line {
@@ -312,8 +314,9 @@
     height: 440px;
     object-fit: cover;
     border-radius: 12px;
-    position: relative;
-    top: -60px;
+    position: absolute;
+    right: 64px;
+    top: -64px;
   }
 
   .promo-info-wrapper {
