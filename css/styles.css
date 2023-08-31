@@ -439,15 +439,42 @@
   }
 
 
+  /* MEDIA QUERIES */
+
+  /* 1100 */
   @media screen and (max-width: 1100px) {
+
+    .feature {
+      width: 30%;
+      margin-right: 5%;
+    }
+
     .site-footer__links {
       width: 20.36%;
       margin-right: 6.18%;
     }
-
   }
 
+  @media screen and (max-width: 1000px) {
+    .features {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+  }
+
+  /* 768 */
+
   @media screen and (max-width: 768px) {
+
+    .features {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+
+    .features-heading {
+      margin-bottom: 48px;
+      font-size: 50px;
+    }
 
     .site-footer__bottom {
       flex-wrap: wrap;
@@ -466,10 +493,30 @@
     .site-footer__links:nth-child(3n) {
       margin-right: 0;
     }
-
   }
 
+  /* 600px */
+
   @media screen and (max-width: 600px) {
+
+    .features-list {
+      flex-wrap: wrap;
+    }
+
+    .feature {
+      width: 47%;
+      margin-right: 6%;
+      margin-bottom: 36px;
+    }
+
+    .feature-icon-wrapper {
+      margin-bottom: 16px;
+    }
+
+    .feature:nth-child(2n) {
+      margin-right: 0%;
+    }
+
 
     .site-footer__links {
       width: 46%;
@@ -485,7 +532,30 @@
     }
   }
 
+
+  /* 530 */
+
   @media screen and (max-width: 530px) {
+    .orange-line {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+    }
+
+    .features-heading {
+      width: 100%;
+      text-align: center;
+    }
+
+    .feature {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 48px;
+    }
 
     .site-footer {
       padding: 36px 0;
@@ -501,7 +571,23 @@
     }
   }
 
+
+  /* 400 */
+
   @media screen and (max-width: 400px) {
+    .features {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .features-heading {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .feature-title {
+      font-size: 20px;
+    }
 
     .site-footer__bottom {
       text-align: center;
